@@ -18,9 +18,11 @@
         <a href="/index.html"><h1 class="header">{{ site.title | default: site.github.repository_name }}</h1></a>
         <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
 
-          <a class="buttons" href="/about.html">About</a>
-          <a class="buttons" href="/projects.html">Projects</a>
-          <a class="buttons" href="/skills.html">Skills</a>
+        <ul>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/projects.html">Projects</a></li>
+          <li><a href="/skills.html">Skills</a></li>
+        </ul>
 
         <ul>
           {% if site.show_downloads %}
