@@ -20,25 +20,13 @@
 
         <ul>
           <li><a class="buttons" href="/about.html">About</a></li>
-        </ul>
-
-        <ul>
           <li><a class="buttons" href="/projects.html">Projects</a></li>
-        </ul>
-
-        <ul>
           <li><a class="buttons" href="/skills.html">Skills</a></li>
-        </ul>
-
-        <ul>
           <li><a class="buttons" href="mailto:proudfoot.devon@gmail.com">Email me</a></li>
-        </ul>
-
-        {% if site.github.is_user_page %}
-          <ul>
+          {% if site.github.is_user_page %}
             <li><a class="buttons github" href="{{ site.github.owner_url }}">GitHub Profile</a></li>
-          </ul>
-        {% endif %}
+          {% endif %}
+        </ul>
       </header>
 
       <section>
