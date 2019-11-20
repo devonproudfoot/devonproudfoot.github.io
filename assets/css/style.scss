@@ -26,6 +26,10 @@ img {
   border: none;
 }
 
+.submit:hover {
+  background: #610000;
+}
+
 .contact-form {
   text-align: center;
 }
@@ -40,7 +44,6 @@ img {
   border-radius:5px;
   -webkit-border-radius:5px;
   -moz-border-radius:5px
-  margin-left: 15px;
 }
 
 .long-input {
