@@ -16,15 +16,13 @@ img {
 }
 
 .submit {
-  -webkit-font-smoothing: antialiased;
-  background: url(../images/arrow-down.png) no-repeat;
-  font-weight: normal;
-  text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
-  padding: 2px 2px 2px 22px;
-  height: 30px;
-}
-
-.submit:hover {
-  color: #fff;
+  color: #fff !important;
+  text-transform: uppercase;
   text-decoration: none;
+  background: #C30000;
+  padding: 20px;
+  border-radius: 50px;
+  display: inline-block;
+  border: none;
+  height: 30px;
 }
