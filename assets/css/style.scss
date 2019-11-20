@@ -24,5 +24,24 @@ img {
   border-radius: 50px;
   display: inline-block;
   border: none;
-  height: 30px;
+}
+
+.contact-form {
+  text-align: center;
+}
+
+.input {
+  border:1px solid #DADADA;
+  margin-top:10px;
+  margin-bottom:10px;
+  padding-left:35px;
+  width:310px;
+  height:30px;
+  font-size:14px;
+  box-shadow:0 0 10px;
+  -webkit-box-shadow:0 0 10px;
+  -moz-box-shadow:0 0 10px;
+  border-radius:5px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px
 }
