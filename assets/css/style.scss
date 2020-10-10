@@ -1,9 +1,5 @@
 @import "{{ site.theme }}";
 
-.important {
-  font-weight: bold;
-}
-
 .nav-links {
   margin-left: 20%;
 }
@@ -103,4 +99,8 @@ a.buttons {
   -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .3) inset;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .3) inset;
   box-shadow: 0 1px 1px rgba(0, 0, 0, .3) inset;
+}
+
+form > p {
+  margin-bottom: 0.5em;
 }
